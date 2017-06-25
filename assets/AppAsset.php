@@ -8,6 +8,7 @@
 namespace app\assets;
 
 use yii\web\AssetBundle;
+use yii\web\View;
 
 /**
  * @author Qiang Xue <qiang.xue@gmail.com>
@@ -17,17 +18,14 @@ class AppAsset extends AssetBundle
 {
     public $basePath = '@webroot';
     public $baseUrl = '@web';
-    public $css = [
-        'css/site.css',
-    ];
-    public $js = [
-    ];
+
     public $depends = [
         'app\assets\ace\AceCssAsset',
         'app\assets\ace\AceMinCssAsset',
         'app\assets\ace\AceCssPart2Asset',
         'app\assets\ace\AceCssSkinsAsset',
         'app\assets\ace\AceCssIeAsset',
+        'app\assets\site\SiteCssAsset',
         'app\assets\ace\AceExtraJsAsset',
         'app\assets\ace\AceLteIe8JsAsset',
         'app\assets\ace\AceJqueryAsset',
