@@ -114,6 +114,11 @@ class SiteController extends Controller
         ]);
     }
 
+    public function actionRegistration()
+    {
+        return $this->render('registration');
+    }
+
     /**
      * Displays about page.
      *

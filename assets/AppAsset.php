@@ -23,7 +23,15 @@ class AppAsset extends AssetBundle
     public $js = [
     ];
     public $depends = [
-        'yii\web\YiiAsset',
-        'yii\bootstrap\BootstrapAsset',
+        'app\assets\ace\AceCssAsset',
+        'app\assets\ace\AceMinCssAsset',
+        'app\assets\ace\AceCssPart2Asset',
+        'app\assets\ace\AceCssSkinsAsset',
+        'app\assets\ace\AceCssIeAsset',
+        'app\assets\ace\AceExtraJsAsset',
+        'app\assets\ace\AceLteIe8JsAsset',
+        'app\assets\ace\AceJqueryAsset',
+        'app\assets\ace\AceJqueryForIeAsset',
+        'app\assets\ace\AceJsAsset'
     ];
 }

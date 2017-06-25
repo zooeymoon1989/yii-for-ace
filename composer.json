@@ -21,7 +21,10 @@
         "kartik-v/yii2-widget-fileinput": "@dev",
         "kartik-v/yii2-widgets": "*",
         "yiisoft/yii2-mongodb": "^2.1",
-        "yii2tech/embedded": "^1.0"
+        "yii2tech/embedded": "^1.0",
+        "dektrium/yii2-rbac": "1.0.0-alpha@dev",
+        "yiisoft/yii2-authclient": "~2.1.0",
+        "spomky-labs/jose": "^6.1"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
